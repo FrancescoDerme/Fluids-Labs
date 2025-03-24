@@ -1,0 +1,94 @@
+C<html><body><pre><strong><!--
+C FILE NAME CHAM.INI -------------------------------------------- 201020
+C-----------------------------------------------------------------------
+[Update]
+Rewrite = Yes
+
+[F-array]
+Satellite =  2000000
+Earth     = 10000000
+Photon    =   100000
+Pinto     =   100000
+
+[Satellite]
+NSPEDA = 39
+MAXTCV  = 100000
+MAXFRC  =  10000
+MAXCLP  =     25
+MAXNOD = 241648
+MAXFCT = 766716
+MAXCEL  =     20
+MAXLIMS =     25
+MPARSOL =    100
+MAXCAD  =    500
+FastRead = on
+Threaded_Animation = on
+
+[VBO]
+Shaders = on
+Simple  = off
+Shadows = on
+
+[Earth]
+MAXFCT = 766716
+MPI     =  msmpi
+NPROCS  =  4
+
+[Monitor]
+Sweep = On
+Figures = On
+Pause = Off
+Spinner = Off
+zplanes = Off
+Time = On
+LineWidth =        2
+
+[VRTOCFD]
+Comments = on
+Multirun = off
+*Multirun = on
+NewCADconversion = datmaker
+Polargeom = off
+
+[Graphics]
+PCX_Background = white
+VR_Background = white
+HardwareAccel = On
+PlotType = png
+PlotTol = 1.0E-7
+
+[PostScript]
+Encapsulated = off
+Linewidth = 2
+Pagesize = A4
+Greyscale = off
+
+[Compression]
+Compress = off
+
+[POLIS]
+*drive = c
+web = off
+
+[WINDOWS]
+Font = Consolas
+Font_weight = normal
+InitWinSizeX = 0
+InitWinSizeY = 0
+
+[Q1]
+Display = off
+Object_numbering = off
+
+[FLEXLM]
+Max_Path = 0
+
+
+[EARDAT]
+*Version = 340
+*Version = 350
+*Version = 351
+*Version = 360
+*Version = 361
+*Version = 362
+C</html>/<body></pre></strong>

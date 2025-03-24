@@ -1,0 +1,327 @@
+  <html>
+  <body><pre><strong>
+TALK=T;RUN(1,1)
+ ************************************************************
+  Group 1. Run Title and Number
+ ************************************************************
+ ************************************************************
+ 
+ TEXT(                                        )
+ 
+ ************************************************************
+ ************************************************************
+ 
+ IRUNN = 1 ;LIBREF = 0
+ ************************************************************
+  Group 2. Time dependence
+ STEADY = T
+ ************************************************************
+  Group 3. X-Direction Grid Spacing
+ CARTES = F
+ NX = 1
+ XULAST =0.52
+ XFRAC(1)=1.
+ ************************************************************
+  Group 4. Y-Direction Grid Spacing
+ NY = 26
+ YVLAST =0.075
+ YFRAC(1)=0.038462 ;YFRAC(2)=0.076923
+ YFRAC(3)=0.115385 ;YFRAC(4)=0.153846
+ YFRAC(5)=0.192308 ;YFRAC(6)=0.230769
+ YFRAC(7)=0.269231 ;YFRAC(8)=0.307692
+ YFRAC(9)=0.346154 ;YFRAC(10)=0.384615
+ YFRAC(11)=0.423077 ;YFRAC(12)=0.461538
+ YFRAC(13)=0.5 ;YFRAC(14)=0.538462
+ YFRAC(15)=0.576923 ;YFRAC(16)=0.615385
+ YFRAC(17)=0.653846 ;YFRAC(18)=0.692308
+ YFRAC(19)=0.730769 ;YFRAC(20)=0.769231
+ YFRAC(21)=0.807693 ;YFRAC(22)=0.846154
+ YFRAC(23)=0.884616 ;YFRAC(24)=0.923077
+ YFRAC(25)=0.961539 ;YFRAC(26)=1.
+ ************************************************************
+  Group 5. Z-Direction Grid Spacing
+ PARAB = F
+ NZ = 250
+ ZWLAST =2.5
+ ZFRAC(1)=4.0E-03 ;ZFRAC(2)=8.0E-03
+ ZFRAC(3)=0.012 ;ZFRAC(4)=0.016
+ ZFRAC(5)=0.02 ;ZFRAC(6)=0.024
+ ZFRAC(7)=0.028 ;ZFRAC(8)=0.032
+ ZFRAC(9)=0.036 ;ZFRAC(10)=0.04
+ ZFRAC(11)=0.044 ;ZFRAC(12)=0.048
+ ZFRAC(13)=0.052 ;ZFRAC(14)=0.056
+ ZFRAC(15)=0.06 ;ZFRAC(16)=0.064
+ ZFRAC(17)=0.068 ;ZFRAC(18)=0.072
+ ZFRAC(19)=0.076 ;ZFRAC(20)=0.08
+ ZFRAC(21)=0.084 ;ZFRAC(22)=0.088
+ ZFRAC(23)=0.092 ;ZFRAC(24)=0.096
+ ZFRAC(25)=0.1 ;ZFRAC(26)=0.104
+ ZFRAC(27)=0.108 ;ZFRAC(28)=0.112
+ ZFRAC(29)=0.116 ;ZFRAC(30)=0.12
+ ZFRAC(31)=0.124 ;ZFRAC(32)=0.128
+ ZFRAC(33)=0.132 ;ZFRAC(34)=0.136
+ ZFRAC(35)=0.14 ;ZFRAC(36)=0.144
+ ZFRAC(37)=0.148 ;ZFRAC(38)=0.152
+ ZFRAC(39)=0.156 ;ZFRAC(40)=0.16
+ ZFRAC(41)=0.164 ;ZFRAC(42)=0.168
+ ZFRAC(43)=0.172 ;ZFRAC(44)=0.176
+ ZFRAC(45)=0.18 ;ZFRAC(46)=0.184
+ ZFRAC(47)=0.188 ;ZFRAC(48)=0.192
+ ZFRAC(49)=0.196 ;ZFRAC(50)=0.2
+ ZFRAC(51)=0.204 ;ZFRAC(52)=0.208
+ ZFRAC(53)=0.212 ;ZFRAC(54)=0.216
+ ZFRAC(55)=0.22 ;ZFRAC(56)=0.224
+ ZFRAC(57)=0.228 ;ZFRAC(58)=0.232
+ ZFRAC(59)=0.236 ;ZFRAC(60)=0.24
+ ZFRAC(61)=0.244 ;ZFRAC(62)=0.248
+ ZFRAC(63)=0.252 ;ZFRAC(64)=0.256
+ ZFRAC(65)=0.26 ;ZFRAC(66)=0.264
+ ZFRAC(67)=0.268 ;ZFRAC(68)=0.272
+ ZFRAC(69)=0.276 ;ZFRAC(70)=0.28
+ ZFRAC(71)=0.284 ;ZFRAC(72)=0.288
+ ZFRAC(73)=0.292 ;ZFRAC(74)=0.296
+ ZFRAC(75)=0.3 ;ZFRAC(76)=0.304
+ ZFRAC(77)=0.308 ;ZFRAC(78)=0.312
+ ZFRAC(79)=0.316 ;ZFRAC(80)=0.32
+ ZFRAC(81)=0.324 ;ZFRAC(82)=0.328
+ ZFRAC(83)=0.332 ;ZFRAC(84)=0.336
+ ZFRAC(85)=0.34 ;ZFRAC(86)=0.344
+ ZFRAC(87)=0.348 ;ZFRAC(88)=0.352
+ ZFRAC(89)=0.356 ;ZFRAC(90)=0.36
+ ZFRAC(91)=0.364 ;ZFRAC(92)=0.368
+ ZFRAC(93)=0.372 ;ZFRAC(94)=0.376
+ ZFRAC(95)=0.38 ;ZFRAC(96)=0.384
+ ZFRAC(97)=0.388 ;ZFRAC(98)=0.392
+ ZFRAC(99)=0.396 ;ZFRAC(100)=0.4
+ ZFRAC(101)=0.404 ;ZFRAC(102)=0.408
+ ZFRAC(103)=0.412 ;ZFRAC(104)=0.416
+ ZFRAC(105)=0.42 ;ZFRAC(106)=0.424
+ ZFRAC(107)=0.428 ;ZFRAC(108)=0.432
+ ZFRAC(109)=0.436 ;ZFRAC(110)=0.44
+ ZFRAC(111)=0.444 ;ZFRAC(112)=0.448
+ ZFRAC(113)=0.452 ;ZFRAC(114)=0.456
+ ZFRAC(115)=0.46 ;ZFRAC(116)=0.464
+ ZFRAC(117)=0.468 ;ZFRAC(118)=0.472
+ ZFRAC(119)=0.476 ;ZFRAC(120)=0.48
+ ZFRAC(121)=0.484 ;ZFRAC(122)=0.488
+ ZFRAC(123)=0.492 ;ZFRAC(124)=0.496
+ ZFRAC(125)=0.5 ;ZFRAC(126)=0.504
+ ZFRAC(127)=0.508 ;ZFRAC(128)=0.512
+ ZFRAC(129)=0.516 ;ZFRAC(130)=0.52
+ ZFRAC(131)=0.524 ;ZFRAC(132)=0.528
+ ZFRAC(133)=0.532 ;ZFRAC(134)=0.536
+ ZFRAC(135)=0.54 ;ZFRAC(136)=0.544
+ ZFRAC(137)=0.548 ;ZFRAC(138)=0.552
+ ZFRAC(139)=0.556 ;ZFRAC(140)=0.56
+ ZFRAC(141)=0.564 ;ZFRAC(142)=0.568
+ ZFRAC(143)=0.572 ;ZFRAC(144)=0.576
+ ZFRAC(145)=0.58 ;ZFRAC(146)=0.584
+ ZFRAC(147)=0.588 ;ZFRAC(148)=0.592
+ ZFRAC(149)=0.596 ;ZFRAC(150)=0.6
+ ZFRAC(151)=0.604 ;ZFRAC(152)=0.608
+ ZFRAC(153)=0.612 ;ZFRAC(154)=0.616
+ ZFRAC(155)=0.62 ;ZFRAC(156)=0.624
+ ZFRAC(157)=0.628 ;ZFRAC(158)=0.632
+ ZFRAC(159)=0.636 ;ZFRAC(160)=0.64
+ ZFRAC(161)=0.644 ;ZFRAC(162)=0.648
+ ZFRAC(163)=0.652 ;ZFRAC(164)=0.656
+ ZFRAC(165)=0.66 ;ZFRAC(166)=0.664
+ ZFRAC(167)=0.668 ;ZFRAC(168)=0.672
+ ZFRAC(169)=0.676 ;ZFRAC(170)=0.68
+ ZFRAC(171)=0.684 ;ZFRAC(172)=0.688
+ ZFRAC(173)=0.692 ;ZFRAC(174)=0.696
+ ZFRAC(175)=0.7 ;ZFRAC(176)=0.704
+ ZFRAC(177)=0.708 ;ZFRAC(178)=0.712
+ ZFRAC(179)=0.716 ;ZFRAC(180)=0.72
+ ZFRAC(181)=0.724 ;ZFRAC(182)=0.728
+ ZFRAC(183)=0.732 ;ZFRAC(184)=0.736
+ ZFRAC(185)=0.74 ;ZFRAC(186)=0.744
+ ZFRAC(187)=0.748 ;ZFRAC(188)=0.752
+ ZFRAC(189)=0.756 ;ZFRAC(190)=0.76
+ ZFRAC(191)=0.764 ;ZFRAC(192)=0.768
+ ZFRAC(193)=0.772 ;ZFRAC(194)=0.776
+ ZFRAC(195)=0.78 ;ZFRAC(196)=0.784
+ ZFRAC(197)=0.788 ;ZFRAC(198)=0.792
+ ZFRAC(199)=0.796 ;ZFRAC(200)=0.8
+ ZFRAC(201)=0.804 ;ZFRAC(202)=0.808
+ ZFRAC(203)=0.812 ;ZFRAC(204)=0.816
+ ZFRAC(205)=0.82 ;ZFRAC(206)=0.824
+ ZFRAC(207)=0.828 ;ZFRAC(208)=0.832
+ ZFRAC(209)=0.836 ;ZFRAC(210)=0.84
+ ZFRAC(211)=0.844 ;ZFRAC(212)=0.848
+ ZFRAC(213)=0.852 ;ZFRAC(214)=0.856
+ ZFRAC(215)=0.86 ;ZFRAC(216)=0.864
+ ZFRAC(217)=0.868 ;ZFRAC(218)=0.872
+ ZFRAC(219)=0.876 ;ZFRAC(220)=0.88
+ ZFRAC(221)=0.884 ;ZFRAC(222)=0.888
+ ZFRAC(223)=0.892 ;ZFRAC(224)=0.896
+ ZFRAC(225)=0.9 ;ZFRAC(226)=0.904
+ ZFRAC(227)=0.908 ;ZFRAC(228)=0.912
+ ZFRAC(229)=0.916 ;ZFRAC(230)=0.92
+ ZFRAC(231)=0.924 ;ZFRAC(232)=0.928
+ ZFRAC(233)=0.932 ;ZFRAC(234)=0.936
+ ZFRAC(235)=0.94 ;ZFRAC(236)=0.944
+ ZFRAC(237)=0.948 ;ZFRAC(238)=0.952
+ ZFRAC(239)=0.956 ;ZFRAC(240)=0.96
+ ZFRAC(241)=0.964 ;ZFRAC(242)=0.968
+ ZFRAC(243)=0.972 ;ZFRAC(244)=0.976
+ ZFRAC(245)=0.98 ;ZFRAC(246)=0.984
+ ZFRAC(247)=0.988 ;ZFRAC(248)=0.992
+ ZFRAC(249)=0.996 ;ZFRAC(250)=1.
+ ************************************************************
+  Group 6. Body-Fitted Coordinates
+ ************************************************************
+  Group 7. Variables: STOREd,SOLVEd,NAMEd
+ ONEPHS = T
+ NAME(1)=P1 ;NAME(5)=V1
+ NAME(7)=W1 ;NAME(148)=DEN1
+ NAME(150)=DWDY
+    * Y in SOLUTN argument list denotes:
+    * 1-stored 2-solved 3-whole-field
+    * 4-point-by-point 5-explicit 6-harmonic averaging 
+ SOLUTN(P1,Y,Y,Y,N,N,Y)
+ SOLUTN(V1,Y,Y,N,N,N,Y)
+ SOLUTN(W1,Y,Y,N,N,N,Y)
+ SOLUTN(DEN1,Y,N,N,N,N,Y)
+ SOLUTN(DWDY,Y,N,N,N,N,Y)
+ DEN1 = 148
+ ************************************************************
+  Group 8. Terms & Devices
+    * Y in TERMS argument list denotes:
+    * 1-built-in source 2-convection 3-diffusion 4-transient
+    * 5-first phase variable 6-interphase transport         
+ TERMS(P1,Y,Y,Y,N,Y,Y)
+ TERMS(V1,Y,Y,Y,Y,Y,Y)
+ TERMS(W1,Y,Y,Y,Y,Y,Y)
+ DIFCUT =0.5 ;ZDIFAC =1.
+ GALA = F ;ADDDIF = F
+ ISOLX = -1 ;ISOLY = -1 ;ISOLZ = -1
+ ************************************************************
+  Group 9. Properties used if PRPS is not
+  stored, and where PRPS = -1.0 if it is!
+ RHO1 =910. ;TMP1 =0. ;EL1 =0.
+ TSURR =0. ;TEMP0 =273.149994 ;PRESS0 =1.01325E+05
+ DVO1DT =3.41E-03 ;DRH1DP =0.
+ EMISS =0. ;SCATT =0.
+ RADIA =0. ;RADIB =0.
+ ENUL =3.5E-04 ;ENUT =0.
+ PRNDTL(V1)=1. ;PRNDTL(W1)=1.
+ PRT(V1)=1. ;PRT(W1)=1.
+ CP1 =1005. ;CP2 =1.
+ ************************************************************
+  Group 10.Inter-Phase Transfer Processes
+ ************************************************************
+  Group 11.Initial field variables (PHIs)
+ FIINIT(P1)=0. ;FIINIT(V1)=1.0E-10
+ FIINIT(W1)=1.0E-10 ;FIINIT(DEN1)=1.0E-10
+ FIINIT(DWDY)=1.0E-10
+   No PATCHes yet used for this Group
+ INIADD = F
+ FSWEEP = 1
+ NAMFI =CHAM
+ ************************************************************
+  Group 12. Patchwise adjustment of terms
+  Patches for this group are printed with those
+  for Group 13.
+  Their names begin either with GP12 or &
+ ************************************************************
+  Group 13. Boundary & Special Sources
+ 
+ PATCH(^OB1 ,LOW , 1, 0, 0, 0, 0, 0, 1, 1)
+ COVAL(^OB1 ,P1 , FIXFLU ,409.5 )
+ COVAL(^OB1 ,V1 ,0. ,0. )
+ COVAL(^OB1 ,W1 ,0. ,0.45 )
+ 
+ PATCH(^OB2 ,HIGH , 2, 0, 0, 0, 0, 0, 1, 1)
+ COVAL(^OB2 ,P1 ,1000. ,0. )
+ COVAL(^OB2 ,V1 ,0. ,0. )
+ COVAL(^OB2 ,W1 ,0. ,0. )
+ 
+ PATCH(^OB3 ,CELL , 3, 7, 0, 0, 0, 0, 1, 1)
+ COVAL(^OB3 ,W1 ,1. ,0. )
+ XCYCLE = F
+ EGWF = T
+ WALLCO = GRND2
+ ************************************************************
+  Group 14. Downstream Pressure For PARAB
+ ************************************************************
+  Group 15. Terminate Sweeps
+ LSWEEP = 10000 ;ISWC1 = 1
+ LITHYD = 1 ;LITFLX = 1 ;LITC = 1 ;ITHC1 = 1
+ SELREF = T
+ RESFAC =1.0E-05
+ ************************************************************
+  Group 16. Terminate Iterations
+ LITER(P1)=200 ;LITER(V1)=10
+ LITER(W1)=10
+ ENDIT(P1)=1.0E-03 ;ENDIT(V1)=1.0E-03
+ ENDIT(W1)=1.0E-03
+ ************************************************************
+  Group 17. Relaxation
+ RELAX(P1,LINRLX,1.)
+ RELAX(V1,FALSDT,1.)
+ RELAX(W1,FALSDT,1.)
+ RELAX(DEN1,LINRLX,1.)
+ RELAX(DWDY,LINRLX,1.)
+ OVRRLX =0.
+ EXPERT = F ;NNORSL = F
+ ************************************************************
+  Group 18. Limits
+ VARMAX(P1)=1.0E+10 ;VARMIN(P1)=-1.0E+10
+ VARMAX(V1)=1.0E+06 ;VARMIN(V1)=-1.0E+06
+ VARMAX(W1)=1.0E+06 ;VARMIN(W1)=-1.0E+06
+ VARMAX(DEN1)=1.0E+10 ;VARMIN(DEN1)=-1.0E+10
+ VARMAX(DWDY)=1.0E+10 ;VARMIN(DWDY)=-1.0E+10
+ ************************************************************
+  Group 19. Data transmitted to GROUND
+ DWDY = T
+ PARSOL = F
+ CONWIZ = T
+ ISG62 = 1
+ SPEDAT(SET,GXMONI,PLOTALL,L,T)
+ SPEDAT(SET,OBJNAM,^OB1,C,INLE1)
+ SPEDAT(SET,OBJTYP,^OB1,C,INLET)
+ SPEDAT(SET,OBJNAM,^OB2,C,OUTL2)
+ SPEDAT(SET,OBJTYP,^OB2,C,OUTLET)
+ SPEDAT(SET,ARATIO,^OB2,R,1.)
+ SPEDAT(SET,OBJNAM,^OB3,C,PLAT3)
+ SPEDAT(SET,OBJTYP,^OB3,C,PLATE)
+ SPEDAT(SET,FACETDAT,NUMOBJ,I,3)
+ ************************************************************
+  Group 20. Preliminary Printout
+ ************************************************************
+  Group 21. Print-out of Variables
+ INIFLD = F ;SUBWGR = F
+    * Y in OUTPUT argument list denotes:
+    * 1-field 2-correction-eq. monitor 3-selective dumping      
+    * 4-whole-field residual 5-spot-value table 6-residual table
+ OUTPUT(P1,N,N,Y,Y,Y,Y)
+ OUTPUT(V1,N,N,Y,Y,Y,Y)
+ OUTPUT(W1,N,N,Y,Y,Y,Y)
+ OUTPUT(DEN1,N,N,Y,N,N,N)
+ OUTPUT(DWDY,N,N,Y,N,N,N)
+ ************************************************************
+  Group 22. Monitor Print-Out
+ IXMON = 1 ;IYMON = 26 ;IZMON = 214
+ NPRMON = 100000 ;NPRMNT = 1 ;TSTSWP = -1
+ UWATCH = T ;USTEER = T
+ HIGHLO = F
+ ************************************************************
+  Group 23.Field Print-Out & Plot Control
+ NPRINT = 100000 ;NUMCLS = 5
+ NYPRIN = -1 ;IYPRF = 1 ;IYPRL = 10000
+ NZPRIN = -1 ;IZPRF = 1 ;IZPRL = 10000
+ XZPR = F ;YZPR = F
+ IPLTF = 1 ;IPLTL = -1 ;NPLT = -1
+ ISWPRF = 1 ;ISWPRL = 100000
+ ITABL = 3 ;IPROF = 1
+ ABSIZ =0.5 ;ORSIZ =0.4
+ NTZPRF = 1 ;NCOLPF = 50
+ ICHR = 2 ;NCOLCO = 45 ;NROWCO = 20
+   No PATCHes yet used for this Group
+ ************************************************************
+  Group 24. Dumps For Restarts
+ SAVE = T ;NOWIPE = F
+ NSAVE =CHAM
+STOP
+  </strong></pre></body></html>
