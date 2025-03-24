@@ -1,2 +1,2 @@
 # Fluids-Labs
-Laboratories of the Fluids Labs's exam, Politecnico di Milano.
+Groupwork for the course "Fuilds Labs" at Politecnico di Milano.
